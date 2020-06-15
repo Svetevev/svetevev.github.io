@@ -1,0 +1,164 @@
+input.hr_referer {  border: #ffffff;  width: 100%;  height: 1px; cursor: pointer; }
+.center_komments {
+    display: block;
+    /* width: 100%; */
+    margin: auto;
+    max-width: 700px;
+    margin-top: 34px;
+    padding-top: 10px;
+    border-top: 1px solid #edecec;
+}
+.main_text .blocks_komments a,.main_text .blocks_komments_2 a     {
+    border: none;
+}
+.info_komments w a {
+    float: right;
+    font-size: 9px;
+    margin-top: 11px;
+    border: none;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.info_komments {
+    font-family: cursive;
+    opacity: 0.6;
+    font-size: 12px;
+}
+form.form_komments input {
+    display: block;
+}
+form.form_komments textarea {
+    width: 86%;
+    resize: vertical;
+    min-height: 30px;
+    margin-left: 9px;
+    padding: 10px;
+    overflow:  hidden;
+}
+.block_komments {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.block_komments img#first_foto {
+    width: 51px;
+    height: 51px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.block_komments.input {
+    float: right;
+    margin-right: 10px;
+}
+.block_komments.input label img {
+    width: 13px;
+    height: 13px;
+    padding-right: 5px;
+    opacity: 0.6;
+    margin-top: 1px;
+}
+.block_komments.input label.email img {
+    width: 18px;
+    height: 15px;
+    padding-left: 5px;padding-right: 5px;opacity: 0.4;
+}
+
+.block_komments.input input[type="text"], .block_komments.input input[type="email"]  {
+    width: 126px;
+    height: 20px;
+    text-indent: 6px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 1px;
+    outline: none;    
+    background: none;
+    border: 1px solid #d1d5d7;
+}
+.block_komments.input label{
+    margin: 2px;
+    padding: 2px;
+}
+.block_komments.input span {
+    padding-right: 8px;
+    font-size: 13px;
+    margin-top: 3px;
+}
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+.block_komments.input input[type="submit"] {
+    height: 21px;
+    margin: 2px;
+    cursor: pointer;
+}
+.block_komments.input input[type="submit"]:hover {
+ color: black;
+ opacity: 1;
+}
+ 
+#change_img {
+    position: absolute;
+    background: #e4e4e4;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-left: -80px;
+}
+.blocks_komments, .blocks_komments_2  {
+    padding: 5px;
+    margin-top: 13px;
+    border: 1px solid #efefef;
+    min-height: 51px;
+}
+.blocks_komments_2 {
+    margin-left: 50px;
+}
+.text_komments_on_2 {
+    margin-top: -30px;
+}
+.time_komments_2 a {
+    color: #9b9b9b;
+}
+.time_komments_2 a:hover {
+    text-decoration: none;
+}
+.text_komments_on{
+    margin-top: -36px;
+ }
+.text_komments_on , .text_komments_on_2{
+    margin-left: 60px;
+    font-size: 13px;
+    font-family: serif;
+}
+.time_komments , .time_komments_2 {
+    margin-left: 10px;
+    font-size: 11px;
+    font-family: cursive;
+}
+ 
+.all_komments,.all_komments_2 {
+    display: -webkit-box;
+}
+form.admin_button {
+    margin-left: 75%;
+}
+button.delite.red {
+    color: red;
+}
+button.delite.yellow {
+    color: #ffb300;
+}
+button.delite.green {
+    color: green;
+}
+button.delite.answer {
+    margin-left: 59px;
+    margin-top: 10px;
+    border: 1px solid #787878;
+}
+button.delite.answer:hover {
+    background: white;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+}
+red{color: red;}
